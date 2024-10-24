@@ -3,7 +3,7 @@ const login = require("./utils/login");
 const axios = require("axios");
 
 const email = ""; // replace with actual email
-const secId = "-Dpz8Tj486xtqBXPDRHkvXwMssJ*4WmCTAC*cbjqQ5PxE5sXJaaKpL!3X846jnLHt*f0s1zxt0bxPiCPirGrrFnZ2eHvLY*RqN9IgBDvcjOjPEm9lPOfq38nrP0YWQdEyI5An9TDk7qix5cjerUedbcuxEpW1Z*YXUtNzfVw64SGh2s2!MLh3enerwvaANKPiXa0mmublATAIKu5EGzhqvnhDeO2cw8kUJxyVxpm2ZRqeuFAwWSVIuC0Kjru!kS3DBQ$$"; // replace with your logic to get the secId
+const secId = ""; // replace with your logic to get the secId
 const maxAttempts = 1000000; // Maximum number of attempts (10^6 for 6-digit codes)
 const concurrency = 50000; // Set high concurrency for maximum performance
 
